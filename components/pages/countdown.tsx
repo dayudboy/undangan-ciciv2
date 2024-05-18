@@ -10,7 +10,7 @@ const Countdown = () => {
   const [secondsLeft, setSecondsLeft] = useState(0);
 
   useEffect(() => {
-    const targetDate = new Date('2024-06-22T08:00:00');
+    const targetDate = new Date('2024-06-09T08:00:00');
 
     const updateCountdown = () => {
       const now = new Date();
@@ -58,7 +58,7 @@ const Countdown = () => {
       <div className="relative z-10 flex flex-col items-center text-center">
         <motion.h1 initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.5 }} variants={containerVariants} className="text-xl font-bold mb-4">
           Hitung Mundur <br />
-          <span className="text-4xl font-black">Hari Bahagia Kami</span>
+          <span className="text-4xl font-black">Hari Syukuran Kami</span>
         </motion.h1>
         <motion.div initial="hidden" whileInView="visible" viewport={{ once: false, amount: 0.5 }} variants={containerVariants} className="flex space-x-4 text-center">
           <motion.div className="p-4 bg-black rounded-full" variants={itemVariants}>

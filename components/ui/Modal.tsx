@@ -28,7 +28,7 @@ const ModalVisible: React.FC<ModalVisibleProps> = ({ isVisible, onClose }) => {
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 0.5 }} transition={{ duration: 0.5 }} className="absolute inset-0 bg-black opacity-50"></motion.div>
       <motion.div initial={{ scale: 0.8, opacity: 0 }} animate={{ scale: 1, opacity: 1 }} transition={{ duration: 0.5 }} className="relative z-10 flex flex-col items-center text-white text-center p-4">
         <motion.h1 initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2, duration: 0.5 }} className={` text-3xl md:text-5xl font-bold italic mb-4`}>
-          PERNIKAHAN
+          SYUKURAN
         </motion.h1>
         <div className="flex items-center space-y-2 space-x-2 mb-6">
           <motion.div initial={{ y: -30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.4, duration: 0.5 }} className="relative flex-shrink-0 bg-white text-primary p-2 rounded-sm">

@@ -6,7 +6,7 @@ import { Toaster } from 'react-hot-toast';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Undangan Pernikahan Ari & Cici',
+  title: 'Undangan Syukuran Ari & Cici',
   description: "Come and let's make a party",
 };
 

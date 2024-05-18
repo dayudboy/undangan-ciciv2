@@ -20,7 +20,7 @@ const Gift: React.FC = () => {
           <FaGift className="text-6xl text-gray-800 mx-auto" />
         </div>
         <h1 className="text-2xl font-bold mb-2">Hadiah</h1>
-        <h2 className="text-4xl font-semibold mb-4">Pernikahan</h2>
+        <h2 className="text-4xl font-semibold mb-4">Syukuran</h2>
         <p className="mb-6 text-lg">
           Do{'a'} restu keluarga, sahabat, serta rekan-rekan semua di pernikahan kami sudah sangat cukup sebagai hadiah, tetapi jika memberi merupakan tanda kasih, kami dengan senang hati menerimanya dan tentunya semakin melengkapi
           kebahagiaan kami.

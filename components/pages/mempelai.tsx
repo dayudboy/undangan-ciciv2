@@ -52,7 +52,7 @@ const Mempelai = () => {
               <h2 className="text-xl font-semibold mt-4">Ari Agiana</h2>
               <Separator className="my-2 max-w-[100px]" />
               <p className="text-gray-500 text-xs">Putra Kedua</p>
-              <p className="text-gray-500 text-xs">Bpk. Asep Kusnadi & Ibu Noneng Dewi </p>
+              <p className="text-gray-500 text-xs">Bpk. Asep Kusnadi(Alm) & Ibu Noneng Dewi </p>
               <Link href="https://www.instagram.com/ariagiana" target="_blank" className="mt-2">
                 <Instagram size={15} />
               </Link>
